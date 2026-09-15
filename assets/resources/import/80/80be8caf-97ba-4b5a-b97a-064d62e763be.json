@@ -1,0 +1,1 @@
+[1,0,0,[["cc.TextAsset",["_name","text"],1]],[[0,0,1,3]],[[0,"README","# Runtime config\n\nGenerated JSON master data will be emitted here by a future `tools/master-data` pipeline. Prototype mock data remains in `assets/scripts/world/mock` so production and mock sources cannot be confused.\n"]],0,0,[],[],[]]
