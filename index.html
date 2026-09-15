@@ -66,9 +66,10 @@
           url.searchParams.set('serverUrl', config.serverUrl);
           window.history.replaceState(null, '', url);
         }
+        return config.entry;
       })
       .catch(function(error) { console.warn(error.message); })
-      .then(function() { return System.import('./index.js'); })
+      .then(function(entry) { return System.import(entry || './index.js'); })
       .catch(function(error) { console.error(error); });
 </script>
 

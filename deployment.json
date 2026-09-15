@@ -1,3 +1,5 @@
 {
-  "serverUrl": "https://ratio-emerald-kodak-certainly.trycloudflare.com"
+  "serverUrl": "https://ratio-emerald-kodak-certainly.trycloudflare.com",
+  "version": "83d0cd917f713695",
+  "entry": "./index.83d0cd917f713695.js"
 }
